@@ -63,11 +63,12 @@ export default function Services() {
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-12">
           <span className="text-primary font-bold text-sm uppercase tracking-wide">Наши услуги</span>
+          {/* 🔎 SEO: H2 с ключевыми словами + город */}
           <h2 className="text-3xl md:text-4xl font-bold text-secondary mt-2 mb-4">
-            Что мы чистим?
+            Что мы чистим в Ташкенте?
           </h2>
           <p className="text-gray-500 max-w-xl mx-auto">
-            Профессиональная химчистка любых видов мягкой мебели с выездом к вам домой
+            Профессиональная химчистка диванов, ковров, матрасов и кресел с выездом на дом — по всему Ташкенту
           </p>
         </div>
 

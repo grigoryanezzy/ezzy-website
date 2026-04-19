@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowRight, Star, ShieldCheck, Clock } from "lucide-react";
+import { ArrowRight, Star, ShieldCheck, Clock, Zap } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -13,21 +13,29 @@ export default function Hero() {
         <div className="grid md:grid-cols-2 gap-10 items-center">
           {/* Text content */}
           <div className="relative z-10">
-            {/* Discount badge */}
+            {/* Urgency badge */}
             <div className="inline-flex items-center gap-2 bg-primary text-white px-4 py-2 rounded-full text-sm font-bold mb-6 shadow-lg">
-              <Star size={16} fill="white" />
-              Скидка 10% на первый заказ!
+              <Zap size={16} fill="white" />
+              ⚡ Выезд в день обращения · Скидка 10% + ароматизация в подарок
             </div>
 
+            {/* H1 — SEO: ключевик "химчистка" + USP скорость */}
             <h1 className="text-4xl md:text-5xl font-bold text-secondary leading-tight mb-4">
-              Химчистка мебели
-              <span className="text-primary block">у вас дома</span>
+              Диван как новый —
+              <span className="text-primary block">мастер приедет за 2 часа</span>
             </h1>
 
-            <p className="text-gray-600 text-lg mb-8 leading-relaxed">
-              Профессиональная чистка диванов, кресел, матрасов и ковров в Ташкенте.
-              Выезд на дом, современное оборудование, безопасная химия.
+            {/* Subtitle — три боли клиента */}
+            <p className="text-gray-600 text-lg mb-4 leading-relaxed">
+              Пятно от кофе? Запах кота? Гости завтра? —
+              Мастер выедет в день обращения. Химчистка мебели в Ташкенте с гарантией результата.
             </p>
+
+            {/* Guarantee line */}
+            <div className="flex items-center gap-2 mb-6 text-sm text-green-700 font-semibold bg-green-50 px-3 py-2 rounded-lg w-fit">
+              <ShieldCheck size={16} className="text-green-600" />
+              Если не устроит результат — вернём деньги
+            </div>
 
             {/* Badges */}
             <div className="flex flex-wrap gap-3 mb-8">
@@ -55,7 +63,7 @@ export default function Hero() {
                 <ArrowRight size={20} />
               </a>
               <a
-                href="tel:+998901234567"
+                href="tel:+998781136068"
                 className="border-2 border-secondary text-secondary hover:bg-secondary hover:text-white font-bold px-8 py-4 rounded-xl flex items-center justify-center gap-2 transition-all text-base"
               >
                 Позвонить нам
@@ -66,7 +74,6 @@ export default function Hero() {
           {/* Visual card */}
           <div className="relative flex justify-center">
             <div className="bg-white rounded-3xl shadow-2xl p-8 max-w-sm w-full">
-              {/* Sofa illustration replacement */}
               <div className="bg-gradient-to-br from-primary to-secondary rounded-2xl h-48 flex items-center justify-center mb-6">
                 <div className="text-center text-white">
                   <div className="text-6xl mb-2">🛋️</div>

@@ -75,13 +75,17 @@ export default function Footer() {
                   Telegram: +998 77 260-30-03
                 </a>
               </div>
+              <div className="flex items-center gap-3">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-primary flex-shrink-0"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                <a href="mailto:info@ezzy.uz" className="hover:text-primary transition-colors">info@ezzy.uz</a>
+              </div>
               <div className="flex items-start gap-3">
                 <MapPin size={16} className="text-primary flex-shrink-0 mt-0.5" />
-                <span>Ташкент, все районы</span>
+                <span>г. Ташкент</span>
               </div>
               <div className="flex items-center gap-3">
                 <Clock size={16} className="text-primary flex-shrink-0" />
-                <span>Пн–Вс: 8:00 – 21:00</span>
+                <span>Пн–Вс: 8:00 – 22:00</span>
               </div>
             </div>
           </div>

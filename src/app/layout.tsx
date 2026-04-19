@@ -44,9 +44,10 @@ const schemaOrg = {
         "Профессиональная химчистка мягкой мебели, диванов, матрасов и ковров в Ташкенте с выездом на дом.",
       url: "https://ezzy-website-v2.vercel.app",
       telephone: "+998781136068",
+      email: "info@ezzy.uz",
       address: {
         "@type": "PostalAddress",
-        addressLocality: "Ташкент",
+        addressLocality: "г. Ташкент",
         addressCountry: "UZ",
       },
       geo: {
@@ -61,7 +62,7 @@ const schemaOrg = {
             "Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday",
           ],
           opens: "08:00",
-          closes: "21:00",
+          closes: "22:00",
         },
       ],
       aggregateRating: {

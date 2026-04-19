@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #5EC7D2;
+  --secondary: #243E96;
+  --accent: #DFEDF1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  background-color: #ffffff;
+  color: #1a1a1a;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
